@@ -1,2 +1,0 @@
-# melyna-lape
-Projektas
