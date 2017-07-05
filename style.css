@@ -1,0 +1,193 @@
+body {
+	background-color: #12171d;
+	font-family: "Roboto", sans-serif, "Pacifico", "Permanent Marker", cursive;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+h2{
+	font-family: "Pacifico";
+	font-size: 40px;
+	color: white;
+	margin-bottom: 50px;
+}
+h3{
+	font-family: "Permanent Marker";
+	font-size: 30px;
+	color: white;
+}
+.nav-pills{
+	font-size: 16px;
+	text-align: center;
+	margin-left: 30%;
+	margin-top: 15px;
+	text-align: center;
+}
+li{
+	margin-right: 20px;
+}
+a{
+	color: white;
+}
+#header_logo{
+	display: inline-block;
+	margin: 0 auto;
+}
+#ar{
+	width: 100%;
+    height: auto;
+}
+#info{
+	text-align: center;
+	width: 100%;
+}
+#social{
+	display: inline-block;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.fb{
+	margin-right: 20px;
+}
+#about_us {
+	margin: 0 auto;
+	width: 70%;
+	margin-bottom: 120px;
+}
+#about_us p{
+	color: white;
+	font-size: 15px;
+}
+#divider{
+	height: 5px;
+	width: 70%;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 130px;
+}
+#crew{
+	margin: 0 auto;
+	width: 70%;
+	display: block;
+}
+button{
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	margin: 0 auto;
+	font-size: 16px;
+	border: 1px solid white;
+	text-decoration: none;
+	background-color: #211f20;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+#angeline{
+	float: right;
+	margin-right: 5%;
+	width: 30%;
+	display: block;
+}
+#angeline p{
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: #211f20;
+	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#angeline button{
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	float: right;
+	margin-top: 5%;
+	font-size: 16px;
+	border: 1px solid white;
+	text-decoration: none;
+	background-color: #211f20;
+}
+#angeline_icon{
+	display: block;
+	float: left;
+}
+#alex{
+	float: left;
+	margin-left: 5%;
+	width: 30%;
+	display: block;
+}
+#alex_icon{
+	display: block;
+	float: right;
+}
+#alex p{
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: #211f20;
+	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#top{
+	display: inline-block;
+}
+#bot{
+	display: inline-block;
+}
+#jenifer{
+	float: right;
+	margin-right: 5%;
+	width: 30%;
+	display: inline-block;
+}
+#jenifer p{
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: #211f20;
+	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#jenifer button{
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	float: right;
+	margin-top: 5%;
+	font-size: 16px;
+	border: 1px solid white;
+	text-decoration: none;
+	background-color: #211f20;
+}
+#jenifer_icon{
+	display: block;
+	float: left;
+}
+#jacob{
+	float: left;
+	margin-left: 5%;
+	width: 30%;
+	display: inline-block;
+}
+#jacob_icon{
+	float: right;
+	display: block;
+}
+#jacob p{
+	padding: 10px;
+	padding-bottom: 40px;
+	background-color: #211f20;
+	color: white;
+	text-align: justify;
+    text-justify: inter-word;
+}
+#map{
+	width: 70%;
+	height: 300px;
+	margin: 0 auto;
+}
+#crew{
+	margin-top: 50px;
+}
