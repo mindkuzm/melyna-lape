@@ -106,6 +106,7 @@ button:hover {
     background-color: white;
     color: black;
 }
+
 #angeline {
 	float: right;
 	margin-right: 5%;
@@ -182,6 +183,7 @@ button:hover {
 	text-align: justify;
     text-justify: inter-word;
 }
+
 #jenifer button {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
