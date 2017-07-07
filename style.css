@@ -5,61 +5,70 @@ body {
 	width: auto;
 	text-align: center;
 }
-h2{
+
+h2 {
 	font-family: "Pacifico";
 	font-size: 40px;
 	color: white;
 	margin-bottom: 50px;
 }
-h3{
+
+h3 {
 	font-family: "Permanent Marker";
 	font-size: 30px;
 	color: white;
 }
-.nav-pills{
+
+.nav-pills {
 	font-size: 16px;
 	text-align: center;
 	margin-left: 33%;
 	margin-top: 15px;
 	text-align: center;
 }
-li{
+
+li {
 	margin-right: 20px;
 }
-a{
+
+a {
 	color: white;
 }
-#header_logo{
+#header_logo {
 	display: inline-block;
 	margin: 0 auto;
 }
-#ar{
+#ar {
 	width: 100%;
     height: auto;
 }
-#info{
+#info {
 	text-align: center;
 	width: 100%;
 }
-#social{
+#social {
 	display: inline-block;
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
-.fb{
+
+.fb {
 	margin-right: 20px;
 }
+
 #about_us {
 	margin: 0 auto;
 	width: 70%;
 	margin-bottom: 0px;
 }
-#about_us p{
+
+#about_us p {
 	color: white;
 	font-size: 15px;
 }
-#divider{
+
+#divider {
 	height: 5px;
 	width: 70%;
 	background-color: black;
@@ -67,7 +76,8 @@ a{
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#divider_mini{
+
+#divider_mini {
 	height: 5px;
 	width: 70%;
 	background-color: black;
@@ -75,12 +85,14 @@ a{
 	margin-top: 50px;
 	margin-bottom: 10px;
 }
-#crew{
+
+#crew {
 	margin: 0 auto;
 	width: 70%;
 	display: block;
 }
-button{
+
+button {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 	margin: 0 auto;
@@ -89,17 +101,19 @@ button{
 	text-decoration: none;
 	background-color: #211f20;
 }
+
 button:hover {
     background-color: white;
     color: black;
 }
-#angeline{
+#angeline {
 	float: right;
 	margin-right: 5%;
 	width: 30%;
 	display: block;
 }
-#angeline p{
+
+#angeline p {
 	padding: 10px;
 	padding-bottom: 40px;
 	background-color: #211f20;
@@ -107,7 +121,8 @@ button:hover {
 	text-align: justify;
     text-justify: inter-word;
 }
-#angeline button{
+
+#angeline button {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 	float: right;
@@ -117,21 +132,25 @@ button:hover {
 	text-decoration: none;
 	background-color: #211f20;
 }
-#angeline_icon{
+
+#angeline_icon {
 	display: block;
 	float: left;
 }
-#alex{
+
+#alex {
 	float: left;
 	margin-left: 5%;
 	width: 30%;
 	display: block;
 }
-#alex_icon{
+
+#alex_icon {
 	display: block;
 	float: right;
 }
-#alex p{
+
+#alex p {
 	padding: 10px;
 	padding-bottom: 40px;
 	background-color: #211f20;
@@ -139,19 +158,23 @@ button:hover {
 	text-align: justify;
     text-justify: inter-word;
 }
-#top{
+
+#top {
 	display: inline-block;
 }
-#bot{
+
+#bot {
 	display: inline-block;
 }
-#jenifer{
+
+#jenifer {
 	float: right;
 	margin-right: 5%;
 	width: 30%;
 	display: inline-block;
 }
-#jenifer p{
+
+#jenifer p {
 	padding: 10px;
 	padding-bottom: 40px;
 	background-color: #211f20;
@@ -159,7 +182,7 @@ button:hover {
 	text-align: justify;
     text-justify: inter-word;
 }
-#jenifer button{
+#jenifer button {
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
 	float: right;
@@ -169,21 +192,25 @@ button:hover {
 	text-decoration: none;
 	background-color: #211f20;
 }
-#jenifer_icon{
+
+#jenifer_icon {
 	display: block;
 	float: left;
 }
-#jacob{
+
+#jacob {
 	float: left;
 	margin-left: 5%;
 	width: 30%;
 	display: inline-block;
 }
-#jacob_icon{
+
+#jacob_icon {
 	float: right;
 	display: block;
 }
-#jacob p{
+
+#jacob p {
 	padding: 10px;
 	padding-bottom: 40px;
 	background-color: #211f20;
@@ -191,7 +218,8 @@ button:hover {
 	text-align: justify;
     text-justify: inter-word;
 }
-#map{
+
+#map {
 	width: 70%;
 	height: 300px;
 	margin: 0 auto;
@@ -201,11 +229,13 @@ button:hover {
 	padding: 30px 0;
 }
 
-#crew{
+#crew {
 	margin-top: 50px;
 }
 
-#footer { padding-bottom: 50px; }
+#footer {
+	padding-bottom: 50px;
+}
 
 #footer div { 
 	display: inline-block;
@@ -213,4 +243,6 @@ button:hover {
 	color: white;
 }
 
-#footer img { padding: 0 200px; }
+#footer img {
+	padding: 0 200px;
+}
