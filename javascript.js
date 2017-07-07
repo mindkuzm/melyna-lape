@@ -1,5 +1,12 @@
 $(document).ready(function() {
-	$('.container').slick({
+	$('.gallery1').slick({
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		centerMode: true,
+		arrows: true,
+	});
+
+	$('.gallery2').slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,
 		centerMode: true,
@@ -18,12 +25,15 @@ $(document).ready(function() {
 	});
 
 	function celebrate(response){
-		for (i=0; i<Object.keys(response.data).length; i++)	{
+		for (i=0; i<40; i++)	{
 			var url = response.data[i].images[8].source; 
-			$('.container').slickAdd('<div class="item"><img src="'+url+'" /></div>');
+			$('.gallery1').slick('slickAdd','<div class="item"><img src="'+url+'" /></div>');
 		}
+		for (i=40; i<Object.keys(response.data).length; i++)	{
+			var url = response.data[i].images[8].source; 
+			$('.gallery2').slick('slickAdd','<div class="item"><img src="'+url+'" /></div>');
+		}		
 	}
-
 });
 
 function initMap() {

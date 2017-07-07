@@ -227,8 +227,16 @@ button:hover {
 	margin: 0 auto;
 }
 
-.container {
+.gallery1 {
 	padding: 30px 0;
+	width: 80%;
+	display: inline-block;
+}
+
+.gallery2 {
+	padding: 30px 0;
+	width: 80%;
+	display: inline-block;
 }
 
 #crew {
@@ -248,3 +256,4 @@ button:hover {
 #footer img {
 	padding: 0 200px;
 }
+
